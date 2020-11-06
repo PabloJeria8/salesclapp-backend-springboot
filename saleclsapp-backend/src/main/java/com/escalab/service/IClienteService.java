@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface IClienteService {
+import com.escalab.model.Cliente;
+
+public interface IClienteService extends ICRUD<Cliente> {
 
 }

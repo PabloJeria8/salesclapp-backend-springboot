@@ -1,5 +1,5 @@
 package com.escalab;
 
-public class SecurityConfig {
-
+public class SecurityConfig  {
+	
 }

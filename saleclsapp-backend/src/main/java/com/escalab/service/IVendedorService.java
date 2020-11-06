@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface IVendedorService {
+import com.escalab.model.Vendedor;
+
+public interface IVendedorService extends ICRUD<Vendedor> {
 
 }

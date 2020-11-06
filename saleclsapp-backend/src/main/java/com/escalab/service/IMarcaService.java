@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface IMarcaService {
+import com.escalab.model.Marca;
+
+public interface IMarcaService extends ICRUD<Marca> {
 
 }

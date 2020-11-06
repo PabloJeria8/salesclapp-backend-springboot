@@ -1,5 +1,8 @@
 package com.escalab.repo;
 
-public interface IProductoRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.escalab.model.Producto;
+
+public interface IProductoRepo extends JpaRepository<Producto, Integer> {
 
 }

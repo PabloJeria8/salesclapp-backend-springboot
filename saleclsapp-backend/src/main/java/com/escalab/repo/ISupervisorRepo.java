@@ -1,5 +1,8 @@
 package com.escalab.repo;
 
-public interface ISupervisorRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.escalab.model.Supervisor;
+
+public interface ISupervisorRepo extends JpaRepository<Supervisor, Integer> {
 
 }

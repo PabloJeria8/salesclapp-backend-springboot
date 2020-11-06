@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface ISupervisorService {
+import com.escalab.model.Supervisor;
+
+public interface ISupervisorService extends ICRUD<Supervisor> {
 
 }

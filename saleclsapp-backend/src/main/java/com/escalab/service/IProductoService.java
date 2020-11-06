@@ -1,5 +1,7 @@
 package com.escalab.service;
 
-public interface IProductoService {
+import com.escalab.model.Producto;
+
+public interface IProductoService extends ICRUD<Producto> {
 
 }
